@@ -118,8 +118,13 @@ def createLenetEngine(maxBatchSize, builder, config, dt):
     network.mark_output(prob.get_output(0))
 
     # Build engine
-    builder.max_batch_size = maxBatchSize
-    builder.max_workspace_size = 1 << 20
+    # builder.max_batch_size = maxBatchSize
+    # builder.max_workspace_size = 1 << 20
+    # config = builder.create_builder_config()
+    # config.max_workspace_size = 1 << 28
+
+    plan = builder.build_serialized_network(network, config)
+
     engine = builder.build_engine(network, config)
 
     del network
