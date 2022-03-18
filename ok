@@ -1,0 +1,105 @@
+warning: LF will be replaced by CRLF in yolov5/build/CMakeCache.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in yolov5/build/Makefile.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in yolov5/build/cmake_install.cmake.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in yolov5/build/yolov5s.wts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in yolov5/crawl_baidu_bing.py.
+The file will have its original line endings in your working directory
+[1mdiff --git a/.github/ISSUE_TEMPLATE/tensorrtx-issue-template.md b/.github/ISSUE_TEMPLATE/tensorrtx-issue-template.md[m
+[1mindex 779f227..2d32c13 100644[m
+[1m--- a/.github/ISSUE_TEMPLATE/tensorrtx-issue-template.md[m
+[1m+++ b/.github/ISSUE_TEMPLATE/tensorrtx-issue-template.md[m
+[36m@@ -1,26 +1,26 @@[m
+[31m----[m
+[31m-name: tensorrtx issue template[m
+[31m-about: To understand your issue better[m
+[31m-title: ''[m
+[31m-labels: ''[m
+[31m-assignees: ''[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-## Env[m
+[31m-[m
+[31m-- GPU, e.g. V100, RTX2080, TX2, Xavier NX, Nano, etc.[m
+[31m-- OS, e.g. Ubuntu16.04, Win10, etc.[m
+[31m-- Cuda version[m
+[31m-- TensorRT version[m
+[31m-[m
+[31m-## About this repo[m
+[31m-[m
+[31m-- which branch/tag/commit are you using?[m
+[31m-- which model? yolov5, retinaface?[m
+[31m-[m
+[31m-## Your problem[m
+[31m-[m
+[31m-- what is your command? e.g. `sudo ./yolov5 -s`[m
+[31m-- what's your output?[m
+[31m-- what output do you expect?[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[32mname: tensorrtx issue template[m[41m[m
+[32m+[m[32mabout: To understand your issue better[m[41m[m
+[32m+[m[32mtitle: ''[m[41m[m
+[32m+[m[32mlabels: ''[m[41m[m
+[32m+[m[32massignees: ''[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m---[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## Env[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m- GPU, e.g. V100, RTX2080, TX2, Xavier NX, Nano, etc.[m[41m[m
+[32m+[m[32m- OS, e.g. Ubuntu16.04, Win10, etc.[m[41m[m
+[32m+[m[32m- Cuda version[m[41m[m
+[32m+[m[32m- TensorRT version[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## About this repo[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m- which branch/tag/commit are you using?[m[41m[m
+[32m+[m[32m- which model? yolov5, retinaface?[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m## Your problem[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m- what is your command? e.g. `sudo ./yolov5 -s`[m[41m[m
+[32m+[m[32m- what's your output?[m[41m[m
+[32m+[m[32m- what output do you expect?[m[41m[m
+[1mdiff --git a/.github/stale.yml b/.github/stale.yml[m
+[1mindex dc90e5a..989b678 100644[m
+[1m--- a/.github/stale.yml[m
+[1m+++ b/.github/stale.yml[m
+[36m@@ -1,17 +1,17 @@[m
+[31m-# Number of days of inactivity before an issue becomes stale[m
+[31m-daysUntilStale: 60[m
+[31m-# Number of days of inactivity before a stale issue is closed[m
+[31m-daysUntilClose: 7[m
+[31m-# Issues with these labels will never be considered stale[m
+[31m-exemptLabels:[m
+[31m-  - pinned[m
+[31m-  - security[m
+[31m-# Label to use when marking an issue as stale[m
+[31m-staleLabel: wontfix[m
+[31m-# Comment to post when marking an issue as stale. Set to `false` to disable[m
+[31m-markComment: >[m
+[31m-  This issue has been automatically marked as stale because it has not had[m
+[31m-  recent activity. It will be closed if no further activity occurs. Thank you[m
+[31m-  for your contributions.[m
+[31m-# Comment to post when closing a stale issue. Set to `false` to disable[m
+[31m-closeComment: false[m
+[32m+[m[32m# Number of days of inactivity before an issue becomes stale[m[41m[m
+[32m+[m[32mdaysUntilStale: 60[m[41m[m
+[32m+[m[32m# Number of days of inactivity before a stale issue is closed[m[41m[m
+[32m+[m[32mdaysUntilClose: 7[m[41m[m
+[32m+[m[32m# Issues with these labels will never be considered stale[m[41m[m
+[32m+[m[32mexemptLabels:[m[41m[m
+[32m+[m[32m  - pinned[m[41m[m
+[32m+[m[32m  - security[m[41m[m
+[32m+[m[32m# Label to use when marking an issue as stale[m[41m[m
+[32m+[m[32mstaleLabel: wontfix[m[41m[m
+[32m+[m[32m# Comment to post when marking an issue as stale. Set to `false` to disable[m[41m[m
+[32m+[m[32mmarkComment: >[m[41m[m
+[32m+[m[32m  This issue has been automatically marked as stale because it has not had[m[41m[m
+[32m+[m[32m  recent activity. It will be closed if no further activity occurs. Thank you[m[41m[m
+[32m+[m[32m  for your contributions.[m[41m[m
+[3
